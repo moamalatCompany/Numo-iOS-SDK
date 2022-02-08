@@ -1,4 +1,4 @@
-## PaySky iOS SDK
+## Numo iOS SDK
 
 The purpose of this SDK to help programmers to use PaySky payment SDK for IOS .
 
