@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3440156227465222000920D2 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		34F7C37827464DBF00A0634E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C37727464DBF00A0634E /* AppDelegate.swift */; };
+		34F7C37A27464DBF00A0634E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C37927464DBF00A0634E /* SceneDelegate.swift */; };
+		34F7C37C27464DBF00A0634E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C37B27464DBF00A0634E /* ViewController.swift */; };
+		34F7C37F27464DBF00A0634E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F7C37D27464DBF00A0634E /* Main.storyboard */; };
+		34F7C38127464DC000A0634E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F7C38027464DC000A0634E /* Assets.xcassets */; };
+		34F7C38427464DC000A0634E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F7C38227464DC000A0634E /* LaunchScreen.storyboard */; };
+		34F7C38F27464DC000A0634E /* numo_payTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C38E27464DC000A0634E /* numo_payTests.swift */; };
+		34F7C39927464DC000A0634E /* numo_payUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C39827464DC000A0634E /* numo_payUITests.swift */; };
+		34F7C39B27464DC000A0634E /* numo_payUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7C39A27464DC000A0634E /* numo_payUITestsLaunchTests.swift */; };
+		5DEF3CD132F4085D25E16BED /* Pods_numo_payTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C584B0ABC538E4845A3FB0B3 /* Pods_numo_payTests.framework */; };
+		B87F16B3838724E570C9254B /* Pods_numo_pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA1F2FBAF5D812E9E3D173C /* Pods_numo_pay.framework */; };
+		E5263C47D9BB9607ED9027CF /* Pods_numo_pay_numo_payUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441FBFC7224DDE13D69A33D7 /* Pods_numo_pay_numo_payUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F7C38B27464DC000A0634E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F7C36C27464DBF00A0634E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7C37327464DBF00A0634E;
+			remoteInfo = "numo pay";
+		};
+		34F7C39527464DC000A0634E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F7C36C27464DBF00A0634E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7C37327464DBF00A0634E;
+			remoteInfo = "numo pay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07514336AA82D1B9649A97E5 /* Pods-numo pay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numo pay.debug.xcconfig"; path = "Target Support Files/Pods-numo pay/Pods-numo pay.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6AB2D3BE231001A263A292 /* Pods-numo pay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numo pay.release.xcconfig"; path = "Target Support Files/Pods-numo pay/Pods-numo pay.release.xcconfig"; sourceTree = "<group>"; };
+		23B3EC0E86BFB49A5999ACB7 /* Pods-numo payTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numo payTests.release.xcconfig"; path = "Target Support Files/Pods-numo payTests/Pods-numo payTests.release.xcconfig"; sourceTree = "<group>"; };
+		34F7C37427464DBF00A0634E /* numo pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "numo pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F7C37727464DBF00A0634E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34F7C37927464DBF00A0634E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34F7C37B27464DBF00A0634E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34F7C37E27464DBF00A0634E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F7C38027464DC000A0634E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F7C38327464DC000A0634E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F7C38527464DC000A0634E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F7C38A27464DC000A0634E /* numo payTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "numo payTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F7C38E27464DC000A0634E /* numo_payTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numo_payTests.swift; sourceTree = "<group>"; };
+		34F7C39427464DC000A0634E /* numo payUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "numo payUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F7C39827464DC000A0634E /* numo_payUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numo_payUITests.swift; sourceTree = "<group>"; };
+		34F7C39A27464DC000A0634E /* numo_payUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numo_payUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		441FBFC7224DDE13D69A33D7 /* Pods_numo_pay_numo_payUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numo_pay_numo_payUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA1F2FBAF5D812E9E3D173C /* Pods_numo_pay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numo_pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0D289AB06E3E99B8682A6D /* Pods-numo payTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numo payTests.debug.xcconfig"; path = "Target Support Files/Pods-numo payTests/Pods-numo payTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E8B75F4F90745DE416D6AF /* Pods-numo pay-numo payUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numo pay-numo payUITests.release.xcconfig"; path = "Target Support Files/Pods-numo pay-numo payUITests/Pods-numo pay-numo payUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C584B0ABC538E4845A3FB0B3 /* Pods_numo_payTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numo_payTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34957D3EA420706BC6F05CD /* Pods-numo pay-numo payUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numo pay-numo payUITests.debug.xcconfig"; path = "Target Support Files/Pods-numo pay-numo payUITests/Pods-numo pay-numo payUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F7C37127464DBF00A0634E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87F16B3838724E570C9254B /* Pods_numo_pay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F7C38727464DC000A0634E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF3CD132F4085D25E16BED /* Pods_numo_payTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F7C39127464DC000A0634E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5263C47D9BB9607ED9027CF /* Pods_numo_pay_numo_payUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F7C36B27464DBF00A0634E = {
+			isa = PBXGroup;
+			children = (
+				34F7C37627464DBF00A0634E /* numo pay */,
+				34F7C38D27464DC000A0634E /* numo payTests */,
+				34F7C39727464DC000A0634E /* numo payUITests */,
+				34F7C37527464DBF00A0634E /* Products */,
+				E9EFCF9FE141D51454BD7736 /* Pods */,
+				F09A50F7F7883D63C66F834F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34F7C37527464DBF00A0634E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C37427464DBF00A0634E /* numo pay.app */,
+				34F7C38A27464DC000A0634E /* numo payTests.xctest */,
+				34F7C39427464DC000A0634E /* numo payUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F7C37627464DBF00A0634E /* numo pay */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C37727464DBF00A0634E /* AppDelegate.swift */,
+				34F7C37927464DBF00A0634E /* SceneDelegate.swift */,
+				34F7C37B27464DBF00A0634E /* ViewController.swift */,
+				34F7C37D27464DBF00A0634E /* Main.storyboard */,
+				34F7C38027464DC000A0634E /* Assets.xcassets */,
+				34F7C38227464DC000A0634E /* LaunchScreen.storyboard */,
+				34F7C38527464DC000A0634E /* Info.plist */,
+			);
+			path = "numo pay";
+			sourceTree = "<group>";
+		};
+		34F7C38D27464DC000A0634E /* numo payTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C38E27464DC000A0634E /* numo_payTests.swift */,
+			);
+			path = "numo payTests";
+			sourceTree = "<group>";
+		};
+		34F7C39727464DC000A0634E /* numo payUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34F7C39827464DC000A0634E /* numo_payUITests.swift */,
+				34F7C39A27464DC000A0634E /* numo_payUITestsLaunchTests.swift */,
+			);
+			path = "numo payUITests";
+			sourceTree = "<group>";
+		};
+		E9EFCF9FE141D51454BD7736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07514336AA82D1B9649A97E5 /* Pods-numo pay.debug.xcconfig */,
+				0E6AB2D3BE231001A263A292 /* Pods-numo pay.release.xcconfig */,
+				D34957D3EA420706BC6F05CD /* Pods-numo pay-numo payUITests.debug.xcconfig */,
+				B2E8B75F4F90745DE416D6AF /* Pods-numo pay-numo payUITests.release.xcconfig */,
+				5D0D289AB06E3E99B8682A6D /* Pods-numo payTests.debug.xcconfig */,
+				23B3EC0E86BFB49A5999ACB7 /* Pods-numo payTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F09A50F7F7883D63C66F834F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BA1F2FBAF5D812E9E3D173C /* Pods_numo_pay.framework */,
+				441FBFC7224DDE13D69A33D7 /* Pods_numo_pay_numo_payUITests.framework */,
+				C584B0ABC538E4845A3FB0B3 /* Pods_numo_payTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F7C37327464DBF00A0634E /* numo pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F7C39E27464DC000A0634E /* Build configuration list for PBXNativeTarget "numo pay" */;
+			buildPhases = (
+				A3FF74093DC816BCB82A7AE6 /* [CP] Check Pods Manifest.lock */,
+				34F7C37027464DBF00A0634E /* Sources */,
+				34F7C37127464DBF00A0634E /* Frameworks */,
+				34F7C37227464DBF00A0634E /* Resources */,
+				F682A8D137D1BFF7CE7AB8F2 /* [CP] Embed Pods Frameworks */,
+				041B3F687B06A4B517D80F47 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "numo pay";
+			productName = "numo pay";
+			productReference = 34F7C37427464DBF00A0634E /* numo pay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F7C38927464DC000A0634E /* numo payTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F7C3A127464DC000A0634E /* Build configuration list for PBXNativeTarget "numo payTests" */;
+			buildPhases = (
+				5CEC4CEC6FCB9E99AE869732 /* [CP] Check Pods Manifest.lock */,
+				34F7C38627464DC000A0634E /* Sources */,
+				34F7C38727464DC000A0634E /* Frameworks */,
+				34F7C38827464DC000A0634E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F7C38C27464DC000A0634E /* PBXTargetDependency */,
+			);
+			name = "numo payTests";
+			productName = "numo payTests";
+			productReference = 34F7C38A27464DC000A0634E /* numo payTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34F7C39327464DC000A0634E /* numo payUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F7C3A427464DC000A0634E /* Build configuration list for PBXNativeTarget "numo payUITests" */;
+			buildPhases = (
+				FC9E5FB2504A4C1C9CB6F725 /* [CP] Check Pods Manifest.lock */,
+				34F7C39027464DC000A0634E /* Sources */,
+				34F7C39127464DC000A0634E /* Frameworks */,
+				34F7C39227464DC000A0634E /* Resources */,
+				42D766D689F74067E0EE7DC6 /* [CP] Embed Pods Frameworks */,
+				65694327C519D149EA39A0E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F7C39627464DC000A0634E /* PBXTargetDependency */,
+			);
+			name = "numo payUITests";
+			productName = "numo payUITests";
+			productReference = 34F7C39427464DC000A0634E /* numo payUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F7C36C27464DBF00A0634E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					34F7C37327464DBF00A0634E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					34F7C38927464DC000A0634E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 34F7C37327464DBF00A0634E;
+					};
+					34F7C39327464DC000A0634E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 34F7C37327464DBF00A0634E;
+					};
+				};
+			};
+			buildConfigurationList = 34F7C36F27464DBF00A0634E /* Build configuration list for PBXProject "numo pay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F7C36B27464DBF00A0634E;
+			productRefGroup = 34F7C37527464DBF00A0634E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F7C37327464DBF00A0634E /* numo pay */,
+				34F7C38927464DC000A0634E /* numo payTests */,
+				34F7C39327464DC000A0634E /* numo payUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F7C37227464DBF00A0634E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F7C38427464DC000A0634E /* LaunchScreen.storyboard in Resources */,
+				34F7C38127464DC000A0634E /* Assets.xcassets in Resources */,
+				34F7C37F27464DBF00A0634E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F7C38827464DC000A0634E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F7C39227464DC000A0634E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041B3F687B06A4B517D80F47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-numo pay/Pods-numo pay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D766D689F74067E0EE7DC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-numo pay-numo payUITests/Pods-numo pay-numo payUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CEC4CEC6FCB9E99AE869732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-numo payTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65694327C519D149EA39A0E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-numo pay-numo payUITests/Pods-numo pay-numo payUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3FF74093DC816BCB82A7AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-numo pay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F682A8D137D1BFF7CE7AB8F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-numo pay/Pods-numo pay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9E5FB2504A4C1C9CB6F725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-numo pay-numo payUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F7C37027464DBF00A0634E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3440156227465222000920D2 /* BuildFile in Sources */,
+				34F7C37C27464DBF00A0634E /* ViewController.swift in Sources */,
+				34F7C37827464DBF00A0634E /* AppDelegate.swift in Sources */,
+				34F7C37A27464DBF00A0634E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F7C38627464DC000A0634E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F7C38F27464DC000A0634E /* numo_payTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F7C39027464DC000A0634E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F7C39B27464DC000A0634E /* numo_payUITestsLaunchTests.swift in Sources */,
+				34F7C39927464DC000A0634E /* numo_payUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F7C38C27464DC000A0634E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7C37327464DBF00A0634E /* numo pay */;
+			targetProxy = 34F7C38B27464DC000A0634E /* PBXContainerItemProxy */;
+		};
+		34F7C39627464DC000A0634E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7C37327464DBF00A0634E /* numo pay */;
+			targetProxy = 34F7C39527464DC000A0634E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F7C37D27464DBF00A0634E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F7C37E27464DBF00A0634E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F7C38227464DC000A0634E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F7C38327464DC000A0634E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F7C39C27464DC000A0634E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34F7C39D27464DC000A0634E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F7C39F27464DC000A0634E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07514336AA82D1B9649A97E5 /* Pods-numo pay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 423RMKG6HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "numo pay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moamalat.ios.numo-pay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34F7C3A027464DC000A0634E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6AB2D3BE231001A263A292 /* Pods-numo pay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 423RMKG6HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "numo pay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moamalat.ios.numo-pay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34F7C3A227464DC000A0634E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0D289AB06E3E99B8682A6D /* Pods-numo payTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 423RMKG6HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moamalat.ios.numo-payTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/numo pay.app/numo pay";
+			};
+			name = Debug;
+		};
+		34F7C3A327464DC000A0634E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B3EC0E86BFB49A5999ACB7 /* Pods-numo payTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 423RMKG6HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moamalat.ios.numo-payTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/numo pay.app/numo pay";
+			};
+			name = Release;
+		};
+		34F7C3A527464DC000A0634E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34957D3EA420706BC6F05CD /* Pods-numo pay-numo payUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 423RMKG6HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moamalat.ios.numo-payUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "numo pay";
+			};
+			name = Debug;
+		};
+		34F7C3A627464DC000A0634E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E8B75F4F90745DE416D6AF /* Pods-numo pay-numo payUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 423RMKG6HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moamalat.ios.numo-payUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "numo pay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F7C36F27464DBF00A0634E /* Build configuration list for PBXProject "numo pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F7C39C27464DC000A0634E /* Debug */,
+				34F7C39D27464DC000A0634E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F7C39E27464DC000A0634E /* Build configuration list for PBXNativeTarget "numo pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F7C39F27464DC000A0634E /* Debug */,
+				34F7C3A027464DC000A0634E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F7C3A127464DC000A0634E /* Build configuration list for PBXNativeTarget "numo payTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F7C3A227464DC000A0634E /* Debug */,
+				34F7C3A327464DC000A0634E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F7C3A427464DC000A0634E /* Build configuration list for PBXNativeTarget "numo payUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F7C3A527464DC000A0634E /* Debug */,
+				34F7C3A627464DC000A0634E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F7C36C27464DBF00A0634E /* Project object */;
+}
