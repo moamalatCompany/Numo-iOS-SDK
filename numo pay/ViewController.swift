@@ -36,12 +36,12 @@ class ViewController: UIViewController, PaymentDelegate {
         
         paymentViewController.amount =  "10"  // Amount
             paymentViewController.delegate = self // PaymentDelegate
-            paymentViewController.mId = "10098206085" // Merchant id
-            paymentViewController.tId = "94674732" // Terminal  id
+            paymentViewController.mId = "10081014649" // Merchant id
+            paymentViewController.tId = "99179395" // Terminal  id
             paymentViewController.Currency = "434"
             paymentViewController.refnumber = "009090978879"
         paymentViewController.AppStatus =  NumoUrlTypes.Numo_Testing
-            paymentViewController.Key = "63336634373139362D616530392D346532642D383861372D623666333963656563623265" // merchant secrue hash
+            paymentViewController.Key = "39636630633731362D663963322D346362642D386531662D633963303432353936373431" // merchant secrue hash
             paymentViewController.pushViewController()
         
         
